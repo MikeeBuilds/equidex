@@ -7,11 +7,11 @@ const AdminPage = () => {
       {/* LEFT */}
       <div className='w-full lg:w-2/3'>
       {/* USER CARD */}
-      <div className='flex gap-4 justify-between flex-wrap'>
+      <div className='flex gap-4 justify-between'>
         <UserCard type='Builders' />
         <UserCard type='Founders' />
         <UserCard type='Co-Founders' />
-        <UserCard type='Staff' />
+        <UserCard type='staff' />
       </div>
       </div>
       {/* RIGHT */}

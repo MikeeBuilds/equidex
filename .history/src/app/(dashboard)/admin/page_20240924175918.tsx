@@ -1,4 +1,3 @@
-import UserCard from '@/components/UserCard'
 import React from 'react'
 
 const AdminPage = () => {
@@ -7,11 +6,8 @@ const AdminPage = () => {
       {/* LEFT */}
       <div className='w-full lg:w-2/3'>
       {/* USER CARD */}
-      <div className='flex gap-4 justify-between flex-wrap'>
-        <UserCard type='Builders' />
-        <UserCard type='Founders' />
-        <UserCard type='Co-Founders' />
-        <UserCard type='Staff' />
+      <div>
+        <UserCard type='admin' />
       </div>
       </div>
       {/* RIGHT */}

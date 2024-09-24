@@ -16,10 +16,7 @@ const config: Config = {
       colors: {
         dexSky: "#C3EBFA",
         dexSkyLight: "#EDF9FD",
-        dexPurple: "#CFCEFF",
-        dexPurpleLight: "#F1F0FF",
-        dexYellow: "#FAE27C",
-        dexYellowLight: "#FEFCE8",
+        dexPurple: ""
       }
     },
   },
