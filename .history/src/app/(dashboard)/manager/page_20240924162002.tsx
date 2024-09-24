@@ -5,4 +5,5 @@ const ManagerPage = () => {
     <div>ManagerPage</div>
   )
 }
+
 export default ManagerPage
