@@ -14,12 +14,12 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        dexSky: "#C3EBFA",
-        dexSkyLight: "#EDF9FD",
-        dexPurple: "#CFCEFF",
-        dexPurpleLight: "#F1F0FF",
-        dexYellow: "#FAE27C",
-        dexYellowLight: "#FEFCE8",
+        dexBlue: "#007AFF"
+dexBlueLight: "#D4EDFF"
+dexGreen: "#34C759"
+dexGreenLight: "#E5F7E7"
+dexPink: "#FF2D55"
+dexPinkLight: "#FFEFF2"
       },
     },
   },

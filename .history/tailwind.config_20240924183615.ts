@@ -19,7 +19,7 @@ const config: Config = {
         dexPurple: "#CFCEFF",
         dexPurpleLight: "#F1F0FF",
         dexYellow: "#FAE27C",
-        dexYellowLight: "#FEFCE8",
+        dexYellowLight: "#FFFAEF",
       },
     },
   },
