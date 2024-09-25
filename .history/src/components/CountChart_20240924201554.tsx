@@ -57,7 +57,7 @@ const CountChart = () => {
       {/* BOTTOM */}
       <div className="flex justify-center gap-16">
         <div className="flex flex-col gap-1">
-          <div className="w-5 h-5 bg-dexSky rounded-full" />
+          <div className="w-5 h-5 bg-dexPurple rounded-full" />
           <h1 className="font-bold">135</h1>
           <h2 className="text-xs text-gray-300">In progress (55%)</h2>
         </div>

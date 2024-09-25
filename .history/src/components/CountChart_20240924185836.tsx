@@ -3,6 +3,7 @@ import Image from "next/image";
 import {
   RadialBarChart,
   RadialBar,
+  Legend,
   ResponsiveContainer,
 } from "recharts";
 
@@ -14,12 +15,12 @@ const data = [
   },
   {
     name: "Completed",
-    count: 45,
+    count: 53,
     fill: "#FAE27C",
   },
   {
-    name: "In Progress",
-    count: 55,
+    name: "In progress",
+    count: 53,
     fill: "#C3EBFA",
   },
 ];

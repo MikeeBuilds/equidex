@@ -17,7 +17,7 @@ export default function DashboardLayout({
           className="flex items-center justify-center lg:justify-start gap-2"
         >
           <Image src="/logo.png" alt="logo" width={32} height={32} />
-          <span className="hidden lg:block font-bold text-dexPurple outline outline-2 outline-offset-2 outline-dexPurple rounded-md p-1">EQUIDEX</span>
+          <span className="hidden lg:block font-bold text-dex">EQUIDEX</span>
         </Link>
         <Menu />
       </div>

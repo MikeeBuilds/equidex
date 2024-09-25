@@ -67,9 +67,9 @@ const menuItems = [
       },
       {
         icon: "/attendance.png",
-        label: "Contributions",
-        href: "/list/contributions",
-        visible: ["admin", "founder", "builder", "cofounder"],
+        label: "Attendance",
+        href: "/list/attendance",
+        visible: ["admin", "founder", "builder", "co"],
       },
       {
         icon: "/calendar.png",

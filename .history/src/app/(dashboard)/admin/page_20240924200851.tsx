@@ -1,4 +1,3 @@
-import ContributionChart from "@/components/ContributionChart";
 import CountChart from "@/components/CountChart";
 import UserCard from "@/components/UserCard";
 import React from "react";
