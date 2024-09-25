@@ -48,7 +48,7 @@ const data = [
 
 const ContributionChart = () => {
   return (
-    <div className="bg-white rounded-lg p-4 h-full flex flex-col">
+    <div className="bg-white rounded-lg p-4 h-full">
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-lg font-semibold">Equity Contributions</h1>
         <div className="flex space-x-1">
@@ -57,7 +57,7 @@ const ContributionChart = () => {
           <div className="w-1 h-1 bg-gray-300 rounded-full"></div>
         </div>
       </div>
-      <ResponsiveContainer width="100%" height="100%">
+      <ResponsiveContainer width="100%" height={300}>
         <BarChart data={data} barSize={30}>
           <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f0f0f0" />
           <XAxis dataKey="name" axisLine={false} tickLine={false} />
@@ -67,16 +67,17 @@ const ContributionChart = () => {
               backgroundColor: 'white', 
               border: 'none', 
               borderRadius: '8px', 
-              boxShadow: '0 2px 4px rgba(0,0,0,0.1)' ,
+              boxShadow: '0 2px 4px rgba(0,0,0,0.1)' 
             }} 
           />
           <Legend 
             wrapperStyle={{
               paddingTop: '20px',
+              paddingBottom: '20px',
             }}
           />
-          <Bar dataKey="hoursWorked" fill="#FAE27C" radius={[10, 10, 0, 0]} name="Hours Worked" legendType='circle' />
-          <Bar dataKey="valueCreated" fill="#C3EBFA" radius={[10, 10, 0, 0]} name="Value Created ($)" legendType='circle' />
+          <Bar dataKey="hoursWorked" fill="#FAE27C" radius={[10, 10, 0, 0]} name="Hours Worked" />
+          <Bar dataKey="valueCreated" fill="#C3EBFA" radius={[10, 10, 0, 0]} name="Value Created ($)" />
         </BarChart>
       </ResponsiveContainer>
     </div>
