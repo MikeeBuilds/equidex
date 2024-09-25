@@ -1,6 +1,5 @@
 import ContributionChart from "@/components/ContributionChart";
 import CountChart from "@/components/CountChart";
-import EventCalendar from "@/components/EvenetCalendar";
 import FinanceChart from "@/components/FinanceChart";
 import UserCard from "@/components/UserCard";
 import React from "react";

@@ -1,6 +1,5 @@
 import ContributionChart from "@/components/ContributionChart";
 import CountChart from "@/components/CountChart";
-import EventCalendar from "@/components/EvenetCalendar";
 import FinanceChart from "@/components/FinanceChart";
 import UserCard from "@/components/UserCard";
 import React from "react";
@@ -35,7 +34,7 @@ const AdminPage = () => {
       </div>
       {/* RIGHT */}
       <div className="w-full lg:w-1/3">
-        <EventCalendar />
+      
       </div>
     </div>
   );
