@@ -343,34 +343,5 @@ export const calendarEvents = [
     start: new Date(2023, 9, 15, 18, 0),
     end: new Date(2023, 9, 15, 21, 0),
   },
-  {
-    title: "Investor Pitch Day",
-    allDay: true,
-    start: new Date(2023, 9, 20),
-    end: new Date(2023, 9, 20),
-  },
-  {
-    title: "Startup Workshop: Legal Basics",
-    allDay: false,
-    start: new Date(2023, 9, 25, 10, 0),
-    end: new Date(2023, 9, 25, 12, 0),
-  },
-  {
-    title: "Tech Meetup",
-    allDay: false,
-    start: new Date(2023, 10, 5, 18, 30),
-    end: new Date(2023, 10, 5, 20, 30),
-  },
-  {
-    title: "Funding Application Deadline",
-    allDay: true,
-    start: new Date(2023, 10, 15),
-    end: new Date(2023, 10, 15),
-  },
-  {
-    title: "Product Launch Webinar",
-    allDay: false,
-    start: new Date(2023, 10, 22, 14, 0),
-    end: new Date(2023, 10, 22, 15, 30),
-  }
+  // ... Add more relevant events
 ];

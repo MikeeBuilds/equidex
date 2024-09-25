@@ -162,34 +162,7 @@ export const matchesData = [
     project: "MindfulAI",
     status: "Accepted",
   },
-  {
-    id: 3,
-    founder: "Emily Chen",
-    builder: "Tom Wilson",
-    project: "HealthHub",
-    status: "Pending",
-  },
-  {
-    id: 4,
-    founder: "David Park",
-    builder: "Lisa Brown",
-    project: "EduTech",
-    status: "Accepted",
-  },
-  {
-    id: 5,
-    founder: "Sophia Martinez",
-    builder: "Chris Taylor",
-    project: "GreenEnergy",
-    status: "Rejected",
-  },
-  {
-    id: 6,
-    founder: "Alex Rodriguez",
-    builder: "Emma Davis",
-    project: "CryptoSafe",
-    status: "Pending",
-  },
+  // ... Add more matches as needed
 ];
 
 export const skillsData = [
@@ -203,26 +176,7 @@ export const skillsData = [
   "Machine Learning",
   "DevOps",
   "Marketing",
-  "Content Writing",
-  "Digital Marketing",
-  "SEO Optimization",
-  "Blockchain Development",
-  "Cloud Computing",
-  "Cybersecurity",
-  "Data Analytics",
-  "Artificial Intelligence",
-  "Internet of Things (IoT)",
-  "Augmented Reality (AR)",
-  "Virtual Reality (VR)",
-  "3D Modeling",
-  "Game Development",
-  "Project Management",
-  "Business Development",
-  "Financial Analysis",
-  "Legal Expertise",
-  "Human Resources",
-  "Customer Service",
-  "Sales",
+  // ... Add more skills as needed
 ];
 
 export const eventsData = [
@@ -242,46 +196,7 @@ export const eventsData = [
     endTime: "22:00",
     description: "Discussing the latest AI trends and applications in startups",
   },
-  {
-    id: 3,
-    title: "Blockchain Workshop",
-    date: "2023-10-25",
-    startTime: "14:00",
-    endTime: "17:00",
-    description: "Hands-on workshop on implementing blockchain in startups",
-  },
-  {
-    id: 4,
-    title: "Funding Strategies Panel",
-    date: "2023-11-05",
-    startTime: "10:00",
-    endTime: "12:00",
-    description: "Expert panel discussing various funding strategies for early-stage startups",
-  },
-  {
-    id: 5,
-    title: "Product Launch Masterclass",
-    date: "2023-11-15",
-    startTime: "09:00",
-    endTime: "13:00",
-    description: "Learn effective strategies for launching your startup's product",
-  },
-  {
-    id: 6,
-    title: "Equity Allocation Workshop",
-    date: "2023-11-22",
-    startTime: "15:00",
-    endTime: "18:00",
-    description: "Interactive session on fair equity allocation for founders and early employees",
-  },
-  {
-    id: 7,
-    title: "Startup Legal Clinic",
-    date: "2023-12-01",
-    startTime: "11:00",
-    endTime: "14:00",
-    description: "Free legal advice for startups on common issues like incorporation and contracts",
-  },
+  // ... Add more events as needed
 ];
 
 export const announcementsData = [
@@ -303,30 +218,7 @@ export const announcementsData = [
     date: "2023-09-05",
     content: "TechNova, formed through our platform, just secured $2M in seed funding! Read about how they built their team and product using sweat equity.",
   },
-  {
-    id: 4,
-    title: "Platform Update: Enhanced Project Management Tools",
-    date: "2023-08-28",
-    content: "We've rolled out new project management features to help teams track progress and manage tasks more efficiently.",
-  },
-  {
-    id: 5,
-    title: "Milestone: 1000+ Startups Launched",
-    date: "2023-08-20",
-    content: "We're thrilled to announce that over 1000 startups have now been launched through our platform. Congratulations to all our users!",
-  },
-  {
-    id: 6,
-    title: "New Partnership: Venture Capital Firm XYZ",
-    date: "2023-08-15",
-    content: "We've partnered with VC firm XYZ to provide exclusive funding opportunities for startups on our platform. Stay tuned for more details.",
-  },
-  {
-    id: 7,
-    title: "Upcoming Feature: Skill-Based Matching",
-    date: "2023-08-10",
-    content: "Next month, we'll be launching a new feature that matches founders with builders based on specific skill sets and project requirements.",
-  },
+  // ... Add more announcements as needed
 ];
 
 // You can keep the calendarEvents if they're relevant, or modify them to fit startup events
@@ -343,34 +235,5 @@ export const calendarEvents = [
     start: new Date(2023, 9, 15, 18, 0),
     end: new Date(2023, 9, 15, 21, 0),
   },
-  {
-    title: "Investor Pitch Day",
-    allDay: true,
-    start: new Date(2023, 9, 20),
-    end: new Date(2023, 9, 20),
-  },
-  {
-    title: "Startup Workshop: Legal Basics",
-    allDay: false,
-    start: new Date(2023, 9, 25, 10, 0),
-    end: new Date(2023, 9, 25, 12, 0),
-  },
-  {
-    title: "Tech Meetup",
-    allDay: false,
-    start: new Date(2023, 10, 5, 18, 30),
-    end: new Date(2023, 10, 5, 20, 30),
-  },
-  {
-    title: "Funding Application Deadline",
-    allDay: true,
-    start: new Date(2023, 10, 15),
-    end: new Date(2023, 10, 15),
-  },
-  {
-    title: "Product Launch Webinar",
-    allDay: false,
-    start: new Date(2023, 10, 22, 14, 0),
-    end: new Date(2023, 10, 22, 15, 30),
-  }
+  // ... Add more relevant events
 ];
