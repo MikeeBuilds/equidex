@@ -230,41 +230,7 @@ export const coFoundersData = [
     project: "CryptoSafe",
     status: "Pending",
   },
-  {
-    id: 7,
-    founder: "Rachel Kim",
-    builder: "Daniel White",
-    project: "FoodShare",
-    status: "Accepted",
-  },
-  {
-    id: 8,
-    founder: "Mark Thompson",
-    builder: "Olivia Garcia",
-    project: "SmartHome",
-    status: "Pending",
-  },
-  {
-    id: 9,
-    founder: "Natalie Wong",
-    builder: "James Anderson",
-    project: "FitTech",
-    status: "Rejected",
-  },
-  {
-    id: 10,
-    founder: "Robert Chen",
-    builder: "Anna Martinez",
-    project: "AgroTech",
-    status: "Accepted",
-  },
-  {
-    id: 11,
-    founder: "Samantha Lee",
-    builder: "Michael Brown",
-    project: "FinLit",
-    status: "Pending",
-  },
+  
 ];
 
 export const skillsData = [

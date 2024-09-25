@@ -6,8 +6,8 @@ import { useState } from "react";
 
 // USE LAZY LOADING
 
-// import FounderForm from "./forms/FounderForm";
-// import CofounderForm from "./forms/CofounderForm";
+import FoundersForm from "./forms/FoundersForm";
+import CofoundersForm from "./forms/StudentForm";
 
 const TeacherForm = dynamic(() => import("./forms/FounderForm"), {
   loading: () => <h1>Loading...</h1>,
@@ -79,7 +79,7 @@ const FormModal = ({
         className={`${size} flex items-center justify-center rounded-full ${bgColor}`}
         onClick={() => setOpen(true)}
       >
-        <Image src={`/${type === "create" ? "plus" : type}.png`} alt="" width={16} height={16} />
+        <Image src={`/${type}.png`} alt="" width={16} height={16} />
       </button>
       {open && (
         <div className="w-screen h-screen absolute left-0 top-0 bg-black bg-opacity-60 z-50 flex items-center justify-center">
