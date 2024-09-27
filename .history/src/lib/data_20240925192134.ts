@@ -5,7 +5,6 @@ export let role = "admin";
 export const foundersData = [
   {
     id: 1,
-    founderId: 123456789,
     name: "John Doe",
     email: "john@startup.com",
     photo: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -14,7 +13,6 @@ export const foundersData = [
   },
   {
     id: 2,
-    founderId: 123456789,
     name: "Jane Smith",
     email: "jane@techventure.com",
     photo: "https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -23,7 +21,6 @@ export const foundersData = [
   },
   {
     id: 3,
-    founderId: 123456789,
     name: "Alex Chen",
     email: "alex@innovatetech.com",
     photo: "https://images.pexels.com/photos/2379006/pexels-photo-2379006.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -32,7 +29,6 @@ export const foundersData = [
   },
   {
     id: 4,
-    founderId: 123456789,
     name: "Emily Brown",
     email: "emily@greenstart.com",
     photo: "https://images.pexels.com/photos/3769023/pexels-photo-3769023.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -41,7 +37,6 @@ export const foundersData = [
   },
   {
     id: 5,
-    founderId: 123456789,
     name: "David Kim",
     email: "david@finnovate.com",
     photo: "https://images.pexels.com/photos/2379007/pexels-photo-2379007.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -50,7 +45,6 @@ export const foundersData = [
   },
   {
     id: 6,
-    founderId: 123456789,
     name: "Sophia Rodriguez",
     email: "sophia@healthtech.com",
     photo: "https://images.pexels.com/photos/3769026/pexels-photo-3769026.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -59,7 +53,6 @@ export const foundersData = [
   },
   {
     id: 7,
-    founderId: 123456789,
     name: "Raj Patel",
     email: "raj@smartcity.com",
     photo: "https://images.pexels.com/photos/2379009/pexels-photo-2379009.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -68,7 +61,6 @@ export const foundersData = [
   },
   {
     id: 8,
-    founderId: 123456789,
     name: "Olivia Taylor",
     email: "olivia@ecotech.com",
     photo: "https://images.pexels.com/photos/3769027/pexels-photo-3769027.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -77,7 +69,6 @@ export const foundersData = [
   },
   {
     id: 9,
-    founderId: 123456789,
     name: "Liam Nguyen",
     email: "liam@aiethics.com",
     photo: "https://images.pexels.com/photos/2379010/pexels-photo-2379010.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -86,7 +77,6 @@ export const foundersData = [
   },
   {
     id: 10,
-    founderId: 123456789,
     name: "Emma Wilson",
     email: "emma@agritech.com",
     photo: "https://images.pexels.com/photos/3769028/pexels-photo-3769028.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -410,7 +400,7 @@ export const equityAllocationData = [
   },
   // Add more equity allocations as needed
 ];
- 
+
 // Add performanceData
 export const performanceData = [
   {

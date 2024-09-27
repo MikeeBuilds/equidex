@@ -78,7 +78,7 @@ export const foundersData = [
   {
     id: 9,
     founderId: 123456789,
-    name: "Liam Nguyen",
+      name: "Liam Nguyen",
     email: "liam@aiethics.com",
     photo: "https://images.pexels.com/photos/2379010/pexels-photo-2379010.jpeg?auto=compress&cs=tinysrgb&w=1200",
     skills: ["AI Ethics", "Policy Development"],
@@ -410,7 +410,7 @@ export const equityAllocationData = [
   },
   // Add more equity allocations as needed
 ];
- 
+
 // Add performanceData
 export const performanceData = [
   {

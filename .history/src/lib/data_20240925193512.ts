@@ -410,7 +410,7 @@ export const equityAllocationData = [
   },
   // Add more equity allocations as needed
 ];
- 
+
 // Add performanceData
 export const performanceData = [
   {

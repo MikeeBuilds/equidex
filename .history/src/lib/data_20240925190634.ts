@@ -1,11 +1,10 @@
 // TEMPORARY DATA
 
-export let role = "admin";
+export let role = "admin"; // Can be "founder", "builder", or "admin"
 
 export const foundersData = [
   {
     id: 1,
-    founderId: 123456789,
     name: "John Doe",
     email: "john@startup.com",
     photo: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -14,7 +13,6 @@ export const foundersData = [
   },
   {
     id: 2,
-    founderId: 123456789,
     name: "Jane Smith",
     email: "jane@techventure.com",
     photo: "https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -23,7 +21,6 @@ export const foundersData = [
   },
   {
     id: 3,
-    founderId: 123456789,
     name: "Alex Chen",
     email: "alex@innovatetech.com",
     photo: "https://images.pexels.com/photos/2379006/pexels-photo-2379006.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -32,7 +29,6 @@ export const foundersData = [
   },
   {
     id: 4,
-    founderId: 123456789,
     name: "Emily Brown",
     email: "emily@greenstart.com",
     photo: "https://images.pexels.com/photos/3769023/pexels-photo-3769023.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -41,7 +37,6 @@ export const foundersData = [
   },
   {
     id: 5,
-    founderId: 123456789,
     name: "David Kim",
     email: "david@finnovate.com",
     photo: "https://images.pexels.com/photos/2379007/pexels-photo-2379007.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -50,7 +45,6 @@ export const foundersData = [
   },
   {
     id: 6,
-    founderId: 123456789,
     name: "Sophia Rodriguez",
     email: "sophia@healthtech.com",
     photo: "https://images.pexels.com/photos/3769026/pexels-photo-3769026.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -59,7 +53,6 @@ export const foundersData = [
   },
   {
     id: 7,
-    founderId: 123456789,
     name: "Raj Patel",
     email: "raj@smartcity.com",
     photo: "https://images.pexels.com/photos/2379009/pexels-photo-2379009.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -68,7 +61,6 @@ export const foundersData = [
   },
   {
     id: 8,
-    founderId: 123456789,
     name: "Olivia Taylor",
     email: "olivia@ecotech.com",
     photo: "https://images.pexels.com/photos/3769027/pexels-photo-3769027.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -77,7 +69,6 @@ export const foundersData = [
   },
   {
     id: 9,
-    founderId: 123456789,
     name: "Liam Nguyen",
     email: "liam@aiethics.com",
     photo: "https://images.pexels.com/photos/2379010/pexels-photo-2379010.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -86,7 +77,6 @@ export const foundersData = [
   },
   {
     id: 10,
-    founderId: 123456789,
     name: "Emma Wilson",
     email: "emma@agritech.com",
     photo: "https://images.pexels.com/photos/3769028/pexels-photo-3769028.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -314,20 +304,20 @@ export const eventsData = [
   {
     id: 1,
     title: "Startup Pitch Night",
-    project: "EcoTrack",
     date: "2023-10-15",
     startTime: "18:00",
     endTime: "21:00",
+    description: "Founders pitch their ideas to potential builders and investors",
   },
   {
     id: 2,
     title: "Tech Meetup: AI in Startups",
-    project: "MindfulAI",
     date: "2023-10-20",
     startTime: "19:00",
     endTime: "22:00",
+    description: "Discussing the latest AI trends and applications in startups",
   },
-  // ... add more startup-related events
+  // ... (keep other existing events, modifying them to be startup-related)
 ];
 
 export const announcementsData = [
@@ -343,10 +333,9 @@ export const announcementsData = [
     date: "2023-09-10",
     content: "Join us on Sept 20th for a webinar on structuring sweat equity agreements. Learn best practices from experienced founders and legal experts.",
   },
-  // ... add more startup-related announcements
+  // ... (keep other existing announcements, modifying them to be startup-related)
 ];
 
-// Add tasksData
 export const tasksData = [
   {
     id: 1,
@@ -366,10 +355,9 @@ export const tasksData = [
     status: "Not Started",
     priority: "Medium",
   },
-  // Add more tasks as needed
+  // ... add more tasks ...
 ];
 
-// Add milestonesData
 export const milestonesData = [
   {
     id: 1,
@@ -385,10 +373,9 @@ export const milestonesData = [
     dueDate: "2023-12-15",
     status: "In Progress",
   },
-  // Add more milestones as needed
+  // ... add more milestones ...
 ];
 
-// Add equityAllocationData
 export const equityAllocationData = [
   {
     id: 1,
@@ -408,10 +395,9 @@ export const equityAllocationData = [
     vestingPeriod: "3 years",
     cliffPeriod: "6 months",
   },
-  // Add more equity allocations as needed
+  // ... add more equity allocations ...
 ];
- 
-// Add performanceData
+
 export const performanceData = [
   {
     id: 1,
@@ -429,10 +415,9 @@ export const performanceData = [
     target: 50000,
     period: "Q3 2023",
   },
-  // Add more performance metrics as needed
+  // ... add more performance metrics ...
 ];
 
-// Add engagementData
 export const engagementData = [
   {
     id: 1,
@@ -450,10 +435,9 @@ export const engagementData = [
     previousValue: 12,
     period: "September 2023",
   },
-  // Add more engagement metrics as needed
+  // ... add more engagement metrics ...
 ];
 
-// Add contributionsData
 export const contributionsData = [
   {
     id: 1,
@@ -471,45 +455,25 @@ export const contributionsData = [
     value: 10,
     period: "September 2023",
   },
-  // Add more contributions as needed
+  // ... add more contributions ...
 ];
 
-// Add messagesData
-export const messagesData = [
-  {
-    id: 1,
-    sender: "John Doe",
-    recipient: "Jane Smith",
-    content: "Hi Jane, I'd like to discuss our project timeline. Are you available for a call tomorrow?",
-    timestamp: "2023-09-15T10:30:00Z",
-    read: false,
-  },
-  {
-    id: 2,
-    sender: "Jane Smith",
-    recipient: "John Doe",
-    content: "Sure, John. How about 2 PM? I'll send a calendar invite.",
-    timestamp: "2023-09-15T11:15:00Z",
-    read: true,
-  },
-  // ... add more messages
-];
-
-// Update calendarEvents for startup context
 export const calendarEvents = [
   {
-    title: "Team Standup",
+    title: "Pitch Practice",
     allDay: false,
-    start: new Date(2023, 8, 20, 9, 0),
-    end: new Date(2023, 8, 20, 9, 30),
-    colorClass: "Meeting"
-  },
-  {
-    title: "Investor Pitch",
-    allDay: false,
-    start: new Date(2023, 8, 21, 14, 0),
-    end: new Date(2023, 8, 21, 15, 30),
+    start: new Date(2024, 8, 26, 14, 0), // September 26, 2024
+    end: new Date(2024, 8, 26, 16, 0),
     colorClass: "Pitch"
   },
-  // ... add more startup-related events
+  {
+    title: "Networking Mixer",
+    allDay: false,
+    start: new Date(2024, 8, 28, 18, 0), // September 28, 2024
+    end: new Date(2024, 8, 28, 21, 0),
+    colorClass: "Networking"
+  },
+  // ... (add more startup-related events)
 ];
+
+// ... (keep any other existing data that might be relevant)

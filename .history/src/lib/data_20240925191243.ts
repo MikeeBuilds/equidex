@@ -5,7 +5,6 @@ export let role = "admin";
 export const foundersData = [
   {
     id: 1,
-    founderId: 123456789,
     name: "John Doe",
     email: "john@startup.com",
     photo: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -14,7 +13,6 @@ export const foundersData = [
   },
   {
     id: 2,
-    founderId: 123456789,
     name: "Jane Smith",
     email: "jane@techventure.com",
     photo: "https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -23,7 +21,6 @@ export const foundersData = [
   },
   {
     id: 3,
-    founderId: 123456789,
     name: "Alex Chen",
     email: "alex@innovatetech.com",
     photo: "https://images.pexels.com/photos/2379006/pexels-photo-2379006.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -32,7 +29,6 @@ export const foundersData = [
   },
   {
     id: 4,
-    founderId: 123456789,
     name: "Emily Brown",
     email: "emily@greenstart.com",
     photo: "https://images.pexels.com/photos/3769023/pexels-photo-3769023.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -41,7 +37,6 @@ export const foundersData = [
   },
   {
     id: 5,
-    founderId: 123456789,
     name: "David Kim",
     email: "david@finnovate.com",
     photo: "https://images.pexels.com/photos/2379007/pexels-photo-2379007.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -50,7 +45,6 @@ export const foundersData = [
   },
   {
     id: 6,
-    founderId: 123456789,
     name: "Sophia Rodriguez",
     email: "sophia@healthtech.com",
     photo: "https://images.pexels.com/photos/3769026/pexels-photo-3769026.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -59,7 +53,6 @@ export const foundersData = [
   },
   {
     id: 7,
-    founderId: 123456789,
     name: "Raj Patel",
     email: "raj@smartcity.com",
     photo: "https://images.pexels.com/photos/2379009/pexels-photo-2379009.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -68,7 +61,6 @@ export const foundersData = [
   },
   {
     id: 8,
-    founderId: 123456789,
     name: "Olivia Taylor",
     email: "olivia@ecotech.com",
     photo: "https://images.pexels.com/photos/3769027/pexels-photo-3769027.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -77,7 +69,6 @@ export const foundersData = [
   },
   {
     id: 9,
-    founderId: 123456789,
     name: "Liam Nguyen",
     email: "liam@aiethics.com",
     photo: "https://images.pexels.com/photos/2379010/pexels-photo-2379010.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -86,7 +77,6 @@ export const foundersData = [
   },
   {
     id: 10,
-    founderId: 123456789,
     name: "Emma Wilson",
     email: "emma@agritech.com",
     photo: "https://images.pexels.com/photos/3769028/pexels-photo-3769028.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -335,6 +325,52 @@ export const announcementsData = [
     id: 1,
     title: "New Feature: AI Matching Algorithm",
     date: "2023-09-15",
+    id: 3,
+    title: "Blockchain Workshop",
+    date: "2023-10-25",
+    startTime: "14:00",
+    endTime: "17:00",
+    description: "Hands-on workshop on implementing blockchain in startups",
+  },
+  {
+    id: 4,
+    title: "Funding Strategies Panel",
+    date: "2023-11-05",
+    startTime: "10:00",
+    endTime: "12:00",
+    description: "Expert panel discussing various funding strategies for early-stage startups",
+  },
+  {
+    id: 5,
+    title: "Product Launch Masterclass",
+    date: "2023-11-15",
+    startTime: "09:00",
+    endTime: "13:00",
+    description: "Learn effective strategies for launching your startup's product",
+  },
+  {
+    id: 6,
+    title: "Equity Allocation Workshop",
+    date: "2023-11-22",
+    startTime: "15:00",
+    endTime: "18:00",
+    description: "Interactive session on fair equity allocation for founders and early employees",
+  },
+  {
+    id: 7,
+    title: "Startup Legal Clinic",
+    date: "2023-12-01",
+    startTime: "11:00",
+    endTime: "14:00",
+    description: "Free legal advice for startups on common issues like incorporation and contracts",
+  },
+];
+
+export const announcementsData = [
+  {
+    id: 1,
+    title: "New Feature: AI Matching Algorithm",
+    date: "2023-09-15",
     content: "We've launched a new AI-powered matching algorithm to help founders find the perfect collaborators for their projects.",
   },
   {
@@ -343,7 +379,36 @@ export const announcementsData = [
     date: "2023-09-10",
     content: "Join us on Sept 20th for a webinar on structuring sweat equity agreements. Learn best practices from experienced founders and legal experts.",
   },
-  // ... add more startup-related announcements
+  {
+    id: 3,
+    title: "Success Story: TechNova Startup",
+    date: "2023-09-05",
+    content: "TechNova, formed through our platform, just secured $2M in seed funding! Read about how they built their team and product using sweat equity.",
+  },
+  {
+    id: 4,
+    title: "Platform Update: Enhanced Project Management Tools",
+    date: "2023-08-28",
+    content: "We've rolled out new project management features to help teams track progress and manage tasks more efficiently.",
+  },
+  {
+    id: 5,
+    title: "Milestone: 1000+ Startups Launched",
+    date: "2023-08-20",
+    content: "We're thrilled to announce that over 1000 startups have now been launched through our platform. Congratulations to all our users!",
+  },
+  {
+    id: 6,
+    title: "New Partnership: Venture Capital Firm XYZ",
+    date: "2023-08-15",
+    content: "We've partnered with VC firm XYZ to provide exclusive funding opportunities for startups on our platform. Stay tuned for more details.",
+  },
+  {
+    id: 7,
+    title: "Upcoming Feature: Skill-Based Matching",
+    date: "2023-08-10",
+    content: "Next month, we'll be launching a new feature that matches founders with builders based on specific skill sets and project requirements.",
+  },
 ];
 
 // Add tasksData
@@ -410,7 +475,7 @@ export const equityAllocationData = [
   },
   // Add more equity allocations as needed
 ];
- 
+
 // Add performanceData
 export const performanceData = [
   {
@@ -474,42 +539,118 @@ export const contributionsData = [
   // Add more contributions as needed
 ];
 
-// Add messagesData
-export const messagesData = [
-  {
-    id: 1,
-    sender: "John Doe",
-    recipient: "Jane Smith",
-    content: "Hi Jane, I'd like to discuss our project timeline. Are you available for a call tomorrow?",
-    timestamp: "2023-09-15T10:30:00Z",
-    read: false,
-  },
-  {
-    id: 2,
-    sender: "Jane Smith",
-    recipient: "John Doe",
-    content: "Sure, John. How about 2 PM? I'll send a calendar invite.",
-    timestamp: "2023-09-15T11:15:00Z",
-    read: true,
-  },
-  // ... add more messages
-];
-
-// Update calendarEvents for startup context
+// You can keep the calendarEvents if they're relevant, or modify them to fit startup events
 export const calendarEvents = [
   {
-    title: "Team Standup",
+    title: "Pitch Practice",
     allDay: false,
-    start: new Date(2023, 8, 20, 9, 0),
-    end: new Date(2023, 8, 20, 9, 30),
+    start: new Date(2024, 8, 26, 14, 0), // September 26, 2024
+    end: new Date(2024, 8, 26, 16, 0),
+    colorClass: "Pitch"
+  },
+  {
+    title: "Networking Mixer",
+    allDay: false,
+    start: new Date(2024, 8, 28, 18, 0), // September 28, 2024
+    end: new Date(2024, 8, 28, 21, 0),
+    colorClass: "Networking"
+  },
+  {
+    title: "Investor Pitch Day",
+    allDay: true,
+    start: new Date(2024, 8, 30), // September 30, 2024
+    end: new Date(2024, 8, 30),
+    colorClass: "Investor"
+  },
+  {
+    title: "Startup Workshop: Legal Basics",
+    allDay: false,
+    start: new Date(2024, 9, 2, 10, 0), // October 2, 2024
+    end: new Date(2024, 9, 2, 12, 0),
+    colorClass: "Workshop"
+  },
+  {
+    title: "Tech Meetup",
+    allDay: false,
+    start: new Date(2024, 9, 3, 18, 30), // October 3, 2024
+    end: new Date(2024, 9, 3, 20, 30),
+    colorClass: "Meetup"
+  },
+  {
+    title: "Funding Application Deadline",
+    allDay: true,
+    start: new Date(2024, 9, 4), // October 4, 2024
+    end: new Date(2024, 9, 4),
+    colorClass: "Funding"
+  },
+  {
+    title: "Product Launch Webinar",
+    allDay: false,
+    start: new Date(2024, 9, 5, 14, 0), // October 5, 2024
+    end: new Date(2024, 9, 5, 15, 30),
+    colorClass: "Launch"
+  },
+  {
+    title: "Project Meeting",
+    allDay: false,
+    start: new Date(2024, 9, 6, 10, 0), // October 6, 2024
+    end: new Date(2024, 9, 6, 12, 0),
     colorClass: "Meeting"
   },
   {
-    title: "Investor Pitch",
+    title: "Startup Hackathon",
+    allDay: true,
+    start: new Date(2024, 9, 7), // October 7, 2024
+    end: new Date(2024, 9, 8),
+    colorClass: "Hackathon"
+  },
+  {
+    title: "VC Pitch Session",
     allDay: false,
-    start: new Date(2023, 8, 21, 14, 0),
-    end: new Date(2023, 8, 21, 15, 30),
+    start: new Date(2024, 8, 27, 13, 0), // September 27, 2024
+    end: new Date(2024, 8, 27, 17, 0),
     colorClass: "Pitch"
   },
-  // ... add more startup-related events
+  {
+    title: "AI in Startups Seminar",
+    allDay: false,
+    start: new Date(2024, 8, 29, 9, 0), // September 29, 2024
+    end: new Date(2024, 8, 29, 12, 0),
+    colorClass: "Workshop"
+  },
+  {
+    title: "End-of-Year Startup Showcase",
+    allDay: false,
+    start: new Date(2024, 9, 1, 18, 0), // October 1, 2024
+    end: new Date(2024, 9, 1, 22, 0),
+    colorClass: "Launch"
+  },
+  {
+    title: "New Year Kickoff Meeting",
+    allDay: false,
+    start: new Date(2024, 9, 3, 10, 0), // October 3, 2024
+    end: new Date(2024, 9, 3, 12, 0),
+    colorClass: "Meeting"
+  },
+  {
+    title: "Funding Round Closes",
+    allDay: true,
+    start: new Date(2024, 9, 5), // October 5, 2024
+    end: new Date(2024, 9, 5),
+    colorClass: "Funding"
+  },
+  {
+    title: "Product Development Sprint",
+    allDay: true,
+    start: new Date(2024, 9, 6), // October 6, 2024
+    end: new Date(2024, 9, 8),
+    colorClass: "Meeting"
+  },
+  {
+    title: "Market Research Presentation",
+    allDay: false,
+    start: new Date(2024, 8, 25, 14, 0), // September 25, 2024
+    end: new Date(2024, 8, 25, 16, 0),
+    colorClass: "Meeting"
+  },
 ];

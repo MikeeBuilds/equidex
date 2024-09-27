@@ -59,7 +59,6 @@ export const foundersData = [
   },
   {
     id: 7,
-    founderId: 123456789,
     name: "Raj Patel",
     email: "raj@smartcity.com",
     photo: "https://images.pexels.com/photos/2379009/pexels-photo-2379009.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -68,7 +67,6 @@ export const foundersData = [
   },
   {
     id: 8,
-    founderId: 123456789,
     name: "Olivia Taylor",
     email: "olivia@ecotech.com",
     photo: "https://images.pexels.com/photos/3769027/pexels-photo-3769027.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -77,7 +75,6 @@ export const foundersData = [
   },
   {
     id: 9,
-    founderId: 123456789,
     name: "Liam Nguyen",
     email: "liam@aiethics.com",
     photo: "https://images.pexels.com/photos/2379010/pexels-photo-2379010.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -86,7 +83,6 @@ export const foundersData = [
   },
   {
     id: 10,
-    founderId: 123456789,
     name: "Emma Wilson",
     email: "emma@agritech.com",
     photo: "https://images.pexels.com/photos/3769028/pexels-photo-3769028.jpeg?auto=compress&cs=tinysrgb&w=1200",
@@ -410,7 +406,7 @@ export const equityAllocationData = [
   },
   // Add more equity allocations as needed
 ];
- 
+
 // Add performanceData
 export const performanceData = [
   {
