@@ -18,6 +18,7 @@ const forms: {
 } = {
   founder: (type, data) => <FounderForm type={type} data={data} />,
   cofounder: (type, data) => <CoFounderForm type={type} data={data} />,
+  
   // Add other mappings as needed
 };
 
