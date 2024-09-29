@@ -1,6 +1,6 @@
 const Homepage = () => {
   return (
-    <div className=''>Equidex</div>
+    <div className=''>VESTO</div>
   )
 }
 export default Homepage

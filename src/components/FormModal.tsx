@@ -6,10 +6,7 @@ import { useState } from "react";
 
 // USE LAZY LOADING
 
-// import FounderForm from "./forms/FounderForm";
-// import CofounderForm from "./forms/CofounderForm";
-
-const TeacherForm = dynamic(() => import("./forms/FounderForm"), {
+const FounderForm = dynamic(() => import("./forms/FounderForm"), {
   loading: () => <h1>Loading...</h1>,
 });
 const CoFounderForm = dynamic(() => import("./forms/CofounderForm"), {
@@ -19,8 +16,9 @@ const CoFounderForm = dynamic(() => import("./forms/CofounderForm"), {
 const forms: {
   [key: string]: (type: "create" | "update", data?: any) => JSX.Element;
 } = {
-  teacher: (type, data) => <TeacherForm type={type} data={data} />,
-  student: (type, data) => <CoFounderForm type={type} data={data} />,
+  founder: (type, data) => <FounderForm type={type} data={data} />,
+  cofounder: (type, data) => <CoFounderForm type={type} data={data} />,
+  // Add other mappings as needed
 };
 
 const FormModal = ({
@@ -57,20 +55,27 @@ const FormModal = ({
   const [open, setOpen] = useState(false);
 
   const Form = () => {
-    return type === "delete" && id ? (
-      <form action="" className="p-4 flex flex-col gap-4">
-        <span className="text-center font-medium">
-          All data will be lost. Are you sure you want to delete this {table}?
-        </span>
-        <button className="bg-red-700 text-white py-2 px-4 rounded-md border-none w-max self-center">
-          Delete
-        </button>
-      </form>
-    ) : type === "create" || type === "update" ? (
-      forms[table](type, data)
-    ) : (
-      "Form not found!"
-    );
+    if (type === "delete" && id) {
+      return (
+        <form action="" className="p-4 flex flex-col gap-4">
+          <span className="text-center font-medium">
+            All data will be lost. Are you sure you want to delete this {table}?
+          </span>
+          <button className="bg-red-700 text-white py-2 px-4 rounded-md border-none w-max self-center">
+            Delete
+          </button>
+        </form>
+      );
+    } else if (type === "create" || type === "update") {
+      const formFunction = forms[table];
+      if (typeof formFunction === "function") {
+        return formFunction(type, data);
+      } else {
+        return "Form not found!";
+      }
+    } else {
+      return "Form not found!";
+    }
   };
 
   return (

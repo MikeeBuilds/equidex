@@ -1,4 +1,4 @@
-# Equidex
+# VESTO
 
 ## Getting Started
 
